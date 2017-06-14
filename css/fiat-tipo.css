@@ -1,0 +1,1639 @@
+/* Fiat Tipo CSS */
+
+
+/* -------- GENERAL -------- */
+
+/* hosting fonts on our own server, to fix Google Fonts issues, ie. don't load fonts properly for IE */
+@font-face {
+  font-family: Raleway;
+  src: url('fonts/raleway/Raleway-Regular.ttf') format('truetype');
+}
+
+* {
+  -webkit-box-sizing: border-box;  
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+  /* disable horizontal scroll */
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* -------- END GENERAL -------- */
+
+
+/* -------- NAVIGATION ------- */
+
+
+/* overriding bootstrap class */
+
+.navbar {
+  display: -webkit-box;      
+  display: -moz-box;       
+  display: -ms-flexbox;      
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  margin-bottom: 0;
+  border: 0;
+  background-color: #fff;
+}
+
+.navbar__logo {
+  display: -webkit-box;      
+  display: -moz-box;       
+  display: -ms-flexbox;      
+  display: -webkit-flex;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 185px;
+  height: 60px;
+}
+
+.navbar__fiat-logo-img {
+  width: 20%;
+}
+
+.navbar__tipo-logo-img {
+  width: 55%;
+  margin-left: 20px;
+}
+
+.navbar__right-side {
+  position: relative;
+}
+
+.navbar-nav {
+  position: relative;
+}
+
+.navbar-nav>li>a {
+  line-height: 30px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  display: inline-block;
+  padding: 15px;
+  line-height: 30px;
+  color: #fff;
+  background-color: #d11b1b;
+} 
+
+
+/* registration */
+
+.registration {
+  position: absolute;
+  right: 0;
+  top: 60px;
+  z-index: 1;
+  display: -webkit-box;      
+  display: -moz-box;       
+  display: -ms-flexbox;      
+  display: -webkit-flex;
+  display: flex;
+  width: 330px;
+  color: #fff;
+}
+
+.registration__part {
+  height: 52px;
+  margin: 0;
+  font: 13px "Raleway", sans-serif;
+  line-height: 52px;
+}
+
+.registration__part-left {
+  flex: 1;
+  text-align: center;
+  background: #d11b1b;
+}
+
+.registration__part-right {
+  flex: 2;
+  text-align: justify;
+  background: #b01313;
+}
+
+.registration__part-right-text {
+  display: inline-block;
+  margin: auto 16px;
+  line-height: normal;
+  vertical-align: middle;
+}
+
+.registration__drop-menu {
+  width: 52px;
+  background: #991111;
+  color: #fff;
+}
+
+.glyphicon-menu-down--registration {
+  margin: auto 19px;
+  line-height: 52px;
+  text-align: center;
+}
+
+a:hover {
+  color: #fff;
+}
+
+/* end registration */
+
+/* -------- END NAVIGATION -------- */
+
+
+/* -------- START SECTION -------- */
+
+.start-section {
+  padding: 0;
+}
+
+.start-section__bg {
+  background-image: url('./../img/fiat-tipo-1.jpg');
+  background-color: #343434;
+  background-size: cover;
+  background-position: center center;
+  height: 768px;
+  max-width: 100%;
+}
+
+.start-section__appearance {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+}
+
+.start-section__position {
+  position: absolute;
+  top: 10%;
+  left: 17.5%;
+}
+
+.start-section__heading {
+  font-size: 48px;
+}
+
+.start-section__heading-2 {
+  font-size: 27px;
+}
+
+.start-section__heading-2--deco {
+  font-size: 27px;  
+  color: #d11b1b;
+}
+
+.btn-text {
+  position: absolute;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: #fff;
+}
+
+.btn-text--start-section {
+  top: 82%;
+}
+
+.start-section__scroll-down-button {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border: 1.5px solid #fff;
+  border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  transform: translate(-50%, -50%);
+}
+
+.glyphicon-menu-down--start-section {
+  margin: auto 12px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+/* -------- END START SECTION -------- */
+
+  
+/* -------- DESCRIPTION SECTION No1 -------- */
+
+.description--starter {
+  position: relative; 
+  max-width: 100%;
+  padding: 0;  
+}
+
+.description-left {
+  padding: 0;
+  color: #72797f;
+}
+
+.description-text-heading--starter {
+  position: absolute;
+  top: 100px;
+  left: 35%;
+  width: 50%; 
+}
+
+.description-text-left--starter {
+  position: absolute;
+  top: 175px;
+  left: 35%;
+  width: 60%;
+  padding-right: 45px;
+  font-size: 12px;
+}
+
+.description-right {
+  padding: 0;
+}
+
+.description-img--1 {
+  background-image: url('./../img/fiat-tipo-2.jpg');
+  background-color: #343434;
+  background-size: cover;
+  background-position: center center;
+  max-width: 100%;
+  height: 400px;
+}
+
+.description-heading {
+  position: absolute;
+  top: 0;
+  left: 46.5%;
+  padding: 0;
+}
+
+.stand-out-text {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 110px;
+  line-height: 65px;
+  color: #b83939;
+}
+
+.price-text {
+  display: block;
+  font-size: 30px;
+}
+
+.currency-text {
+  position: absolute;
+  top: 30%;
+  display: inline;
+}
+
+/* -------- END DESCRIPTION SECTION No1 -------- */
+
+
+/* -------- AWARDS/ DESCRIPTION SECTION -------- */
+
+.awards {
+  position: relative; 
+  padding: 0;
+}
+
+.description-img--award {
+  width: 100%;
+  height: auto;
+}
+
+.text-heading {
+  position: absolute;
+  top: -120%;
+  left: 0;
+  font-size: 40px;
+  color: #fff;
+}
+
+.award-heading {
+  position: absolute;
+  right: -17%;
+  bottom: 10px;
+  padding: 0;
+  width: initial;
+  z-index: 1;
+}
+
+.stand-out-text--color {
+  color: #fff;
+}
+
+.description-right--bg {
+  width: 100%;
+  height: auto;
+}
+
+.hr-right {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  width: 7%;
+  margin: 0;
+  border-top: 2px solid #b83939;
+}
+
+.description-text-right {
+  position: absolute;
+  top: 60px;
+  left: 10%;
+  width: 50%;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* -------- END AWARDS/ DESCRIPTION SECTION -------- */
+
+
+/* -------- DESCRIPTION SECTION No2 -------- */
+  
+.description {
+  position: relative; 
+  max-width: 100%;
+  padding: 0;  
+}
+  
+.description-text-heading {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  width: 50%; 
+}
+
+.description-text-left {
+  position: absolute;
+  top: 47%;
+  left: 35%;
+  width: 60%;
+  padding-right: 45px;
+  font-size: 12px;
+}  
+  
+.arrow-box  {
+  position: relative;
+  width: 50%;
+  height: 418px;
+  padding: 0;
+  z-index: 1;
+  background: #fff;
+} 
+
+.arrow-box:after {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  height: 0;
+  width: 0;
+  content: " ";
+  border: solid transparent;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border-left-color: #fff;
+  border-width: 7px;
+  margin-top: -7px;
+}
+
+.hr-left {
+  position: absolute;
+  top: 38%;
+  left: 35%;
+  width: 7%;
+  margin: 0;
+  border-top: 2px solid #b83939;
+}
+
+.description-img--2 {
+  height: 418px;
+  background-image: url('./../img/fiat-tipo-4.jpg');
+  background-color: #343434;
+  background-size: cover;
+  background-position: center center;
+}
+   
+/* -------- END DESCRIPTION SECTION No2 -------- */  
+
+
+/* -------- DESCRIPTION SECTION No3 -------- */
+
+.arrow-box--bg {
+  z-index: 2;
+  background-color: #fafafa;
+}
+
+.description-img--3 {
+    height: 418px;
+    background-image: url('./../img/fiat-tipo-6.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+  }
+
+/* -------- END DESCRIPTION SECTION No3 -------- */ 
+
+
+/* -------- DESCRIPTION SECTION No4 -------- */
+
+.description-img--4 {
+    height: 418px;
+    background-image: url('./../img/fiat-tipo-5.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+  }
+
+/* -------- END DESCRIPTION SECTION No4 -------- */
+
+
+/* -------- VIDEO SECTION -------- */
+
+.video {
+  position: relative;
+  height: 620px; 
+  padding: 0;
+}
+
+.btn-text--video {
+  top: 83%;
+}
+
+.glyphicon-forward--edited {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #fff;
+}
+
+/* -------- END VIDEO SECTION -------- */
+   
+
+/* -------- THUMBNAILS/GALLERY SECTION -------- */
+
+.thumb-container {
+  position: relative;
+  padding: 0;
+  background-color: #343434;
+}
+
+.description-text-heading--gallery {
+  top: 8%;
+  left: 15%;
+  color: #fff;
+}
+
+.hr-gallery {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  width: 7%;
+  margin: 0;
+  border-top: 2px solid #b83939;
+}
+
+.flex-img  {
+  display: -webkit-box;      
+  display: -moz-box;       
+  display: -ms-flexbox;      
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10% 15% 7% 15%;
+}  
+
+.img-thumb {
+  width: 33.3%;
+}
+
+.img-size {
+  width: 100%;
+}
+
+/*
+.btn-left-right {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.glyphicon-menu-left--edited,
+.glyphicon-menu-right--edited {
+  top: 4px;
+  padding: 3px 5px;
+  line-height: 1.4;
+  color: #fff;
+  background: #b83939; 
+}
+*/
+
+.owl-theme .owl-nav {
+  display: none;
+}
+
+/* -------- END THUMBNAILS/GALLERY SECTION -------- */ 
+
+
+/* -------- PRICE LIST SECTION -------- */
+
+/* this class in order to remove padding in .col-lg-12 */
+.price-list {
+  padding: 0;
+}
+
+.description-text-heading--price-list {
+  position: absolute;
+  top: -5%;
+  left: 0;
+  margin: 0;
+  text-align: left;
+  color: #606060;
+}
+
+.hr-price-list {
+  position: absolute;
+  top: -2.5%;
+  left: 14%;
+  width: 5%;
+  margin: 0;
+  border-top: 2px solid #b83939;
+}
+
+.main-table {
+  position: relative;
+  margin: 9% auto;
+  color: grey;
+}
+
+.main-table td {
+  height: 30px;
+}
+
+.main-table .row-1 {
+  height: 18px;
+  background-color: #ebebeb;
+}
+
+.main-table .row-2 {
+  height: 10px;
+  background-color: #fff;
+}
+
+.table-heading {
+  color: #fff;
+  background-color: #b83939;
+}
+
+th, td {
+  width: 15%;
+  padding: 5px 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+.table-first-col-text {
+  text-align: left;
+  color: #b83939;
+}
+
+.th-first-col {
+  color: #fff;
+}
+
+.row-bg {
+  background-color: #f8f8f8;
+}
+
+.table-footer-left {
+  text-align: left;
+}
+
+.table-footer-right {
+  text-align: right;
+  color: #b83939;
+}
+
+.glyphicon-download-alt--edited {
+  color: #b83939;
+}
+
+/* -------- END PRICE LIST SECTION -------- */
+
+
+/* -------- FOOTER -------- */
+
+.footer {
+  display: -webkit-box;      
+  display: -moz-box;       
+  display: -ms-flexbox;      
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.footer__fiat-logo-img,
+.footer__tipo-logo-img {
+  margin: 10px;
+}
+
+.footer__text {
+  margin: 30px;
+  font: 11px "Raleway", sans-serif;
+  line-height: 1.6;
+  text-align: center;
+  color: #505050;
+}
+
+/* -------- END FOOTER -------- */
+
+
+/*******************************/
+/********* RESPONSIVE *********/
+/*****************************/
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+
+  /* -------- NAVIGATION ------- */
+  
+  .navbar__fiat-logo-img {
+    width: 15%;
+  }
+  
+  .navbar__tipo-logo-img {
+    width: 50%;
+  }
+  
+  .navbar-nav {
+    position: relative;
+  }
+  
+  .registration {
+    position: absolute;
+    top: 60px;
+    right: 0;
+  }
+  
+  /* -------- END NAVIGATION ------- */
+
+  /* -------- START SECTION -------- */
+  
+  .start-section__bg {
+    background-image: url('./../img/fiat-tipo-1.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    max-width: 100%;
+  }
+
+  /* -------- END START SECTION -------- */
+  
+  /* -------- DESCRIPTION SECTION No1 ------- */
+  
+  .description--starter {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .description-left {
+    height: 300px;
+    text-align: center;
+  }
+  
+  .description-text-heading--starter {
+    top: 16%;
+    /* to center */
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: initial;
+    font-size: 35px;
+  }
+  
+  .description-text-left--starter {
+    top: 53%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding-right: 0;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  
+  .description-img--1 {
+    background-image: url('./../img/fiat-tipo-2.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 531px;
+  }
+  
+  .description-heading {
+    top: 12%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .stand-out-text {
+    font-size: 120px;
+  }
+  
+  .price-text {
+    display: inline;
+    font-size: 45px;
+  }
+  
+  .currency-text {
+    position: initial;
+    font-size: 30px;
+  }
+  
+  sup {
+    top: -60px;
+  }
+  
+  /* -------- END DESCRIPTION SECTION No1 ------- */
+  
+  /* -------- AWARDS/ DESCRIPTION SECTION -------- */
+  
+  .award-heading {
+    right: initial;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: -19px;
+  }
+  
+  .description-right--bg {
+    height: 200px;
+  }
+
+  .hr-right {
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: -32px;
+  }
+  
+  .description-text-right {
+    top: 52%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+ 
+  /* -------- END AWARDS/ DESCRIPTION SECTION -------- */
+  
+  /* -------- DESCRIPTION SECTION No2 ------- */
+  
+  .description {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .arrow-box {
+    position: relative;
+    background: #fff;
+    width:100%;
+  }
+  
+  .arrow-box:after, .arrow-box:before {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+  }
+  
+  .arrow-box:after {
+    top: -29px;
+    border-bottom-color: #fff;
+    border-width: 18px;
+    margin-left: -18px;
+  }
+  
+  .description-text-heading {
+    top: 13%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+  
+  .hr-left {
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .description-text-left {
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    padding-right: 0;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  
+  .description-img--2 {
+    background-image: url('./../img/fiat-tipo-4.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 320px;
+  }
+  
+  /* -------- END DESCRIPTION SECTION No2 ------- */
+  
+  /* -------- DESCRIPTION SECTION No3 ------- */
+  
+  .description-img--3 {
+    background-image: url('./../img/fiat-tipo-6.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 320px;
+  }
+  
+  /* -------- END DESCRIPTION SECTION No3 ------- */
+  
+  /* -------- DESCRIPTION SECTION No4 ------- */
+  
+  .description-img--4 {
+    background-image: url('./../img/fiat-tipo-5.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 320px;
+  }
+  
+  /* -------- END DESCRIPTION SECTION No4 ------- */
+  
+  /* -------- THUMBNAILS/GALLERY SECTION --------*/
+  
+  .description-text-heading--gallery {
+    top: 12%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: initial;
+  }
+  
+  .hr-gallery {
+    top: 150%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
+  
+  .flex-img {
+    padding: 15% 15% 7% 15%;
+  }
+  
+  /* -------- END THUMBNAILS/GALLERY SECTION --------*/
+  
+  /* -------- PRICE LIST SECTION -------- */
+  
+  .description-text-heading--price-list {
+    top: -8%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: inherit;
+  }
+  
+  .hr-price-list {
+    top: -2%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 7%;
+  }
+  
+  /* -------- END PRICE LIST SECTION -------- */
+  
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+
+
+  /* -------- NAVIGATION ------- */
+  
+  .navbar__fiat-logo-img {
+    width: 15%;
+  }
+  
+  .navbar__tipo-logo-img {
+    width: 50%;
+  }
+  
+  .navbar-nav {
+    position: relative;
+  }
+  
+  .navbar-nav>li>a {
+    font-size: 11px;
+  }
+  
+  .registration {
+    position: absolute;
+    top: 60px;
+    right: 0;
+  }
+  
+  /* -------- END NAVIGATION ------- */
+
+  /* -------- START SECTION -------- */
+  
+  .start-section__bg {
+    background-image: url('./../img/fiat-tipo-1.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+    max-width: 100%;
+  }
+  
+  .start-section__position {
+    left: 12%;
+  }
+ 
+  /* -------- END START SECTION -------- */
+  
+  /* -------- DESCRIPTION SECTION No1 ------- */
+  
+  .description--starter {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .description-left {
+    height: 300px;
+    text-align: center;
+  }
+  
+  .description-text-heading--starter {
+    top: 16%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: initial;
+    font-size: 35px;
+  }
+  
+  .description-text-left--starter {
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    padding-right: 0;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  
+  .description-img--1 {
+    background-image: url('./../img/fiat-tipo-2.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 531px;
+  }
+  
+  .description-heading {
+    top: 12%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .stand-out-text {
+    font-size: 100px;
+  }
+  
+  .price-text {
+    display: inline;
+    font-size: 45px;
+  }
+  
+  .currency-text {
+    position: initial;
+    font-size: 30px;
+  }
+  
+  sup {
+    top: -50px;
+  }
+  
+  /* -------- END DESCRIPTION SECTION No1 ------- */
+  
+  /* -------- AWARDS/ DESCRIPTION SECTION -------- */
+  
+  .award-heading {
+    right: initial;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: -26px;
+  }
+  
+  .description-right--bg {
+    height: 200px;
+  }
+
+  .hr-right {
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: -32px;
+  }
+  
+  .description-text-right {
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+ 
+  /* -------- END AWARDS/ DESCRIPTION SECTION -------- */
+  
+  /* -------- DESCRIPTION SECTION No2 ------- */
+  
+  .description {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .arrow-box {
+    position: relative;
+    background: #fff;
+    width:100%;
+  }
+  
+  .arrow-box:after, .arrow-box:before {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+  }
+  
+  .arrow-box:after {
+    top: -29px;
+    border-bottom-color: #fff;
+    border-width: 18px;
+    margin-left: -18px;
+  }
+  
+  .description-text-heading {
+    top: 13%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: initial;
+    font-size: 30px;
+  }
+  
+  .hr-left {
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .description-text-left {
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    padding-right: 0;
+    font-size: 15px;
+    line-height: 1.8;
+  }
+  
+  .description-img--2 {
+    background-image: url('./../img/fiat-tipo-4.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 320px;
+  }
+  
+  /* -------- END DESCRIPTION SECTION No2 ------- */
+  
+  /* -------- DESCRIPTION SECTION No3 ------- */
+  
+  .description-img--3 {
+    background-image: url('./../img/fiat-tipo-6.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 320px;
+  }
+  
+  /* -------- END DESCRIPTION SECTION No3 ------- */
+  
+  /* -------- DESCRIPTION SECTION No4 ------- */
+  
+  .description-img--4 {
+    background-image: url('./../img/fiat-tipo-5.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 320px;
+  }
+  
+  /* -------- END DESCRIPTION SECTION No4 ------- */
+  
+  /* -------- THUMBNAILS/GALLERY SECTION --------*/
+  
+  .flex-img {
+    padding: 20% 15% 7% 15%;
+  }
+  
+  .hr-gallery {
+    top: 150%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
+  
+  /* -------- END THUMBNAILS/GALLERY SECTION --------*/
+  
+  /* -------- PRICE LIST SECTION -------- */
+  
+  .main-table {
+    margin: 15% auto 5%;
+  }
+  
+  .description-text-heading--price-list {
+    top: -8%;
+  }
+  
+  .hr-price-list {
+    top: -2%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 7%;
+  }
+  
+  /* -------- END PRICE LIST SECTION -------- */
+  
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) { 
+  
+  
+  /* -------- NAVIGATION ------- */
+  
+  .navbar {
+    justify-content: flex-start;
+    min-height: 60px;
+    height: auto;
+  }
+  
+  .navbar-nav {
+    margin-top: 80px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .navbar__logo {
+    position: absolute;
+    top: 0;
+    margin-left: 5%;
+  }
+
+  .navbar__right-side {
+    position: absolute;
+    right:0;
+    top: 0;
+  }
+  
+  .navbar__arrow-box {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    width:60px;
+    height: 60px;
+    background: #d7d7d7;
+    font-weight: 600;
+    text-align: center;
+    line-height: 4;
+  }
+
+  .navbar__arrow-box:after,
+  .navbar__arrow-box:before {
+    right: 100%;
+    top: 35%;
+    border: solid transparent;
+    content: " ";
+    position: absolute;
+    border-right-color: #d7d7d7;
+    border-width: 8px;
+  }
+
+  .navbar__arrow-box a {
+    color: #fff;
+  }
+  
+  .navbar-toggle {
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 8px 10px;
+    border: none;
+  }
+  
+  .navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 7px;
+  }
+  
+  .navbar-default .navbar-toggle:focus, 
+  .navbar-default .navbar-toggle:hover {
+    width: 60px;
+    height: 60px;
+    padding: 18px;
+    margin: 0;
+    border-radius: 0;
+    background-color: #991111;
+  }
+  
+  .navbar-default .navbar-nav>li>a:hover {
+    padding: 10px;
+  }
+  
+  /* registration */
+  
+  .registration {
+    width: 100%;
+    padding: 0;
+  }
+ 
+  .registration__part-right {
+    text-align: center;
+  }
+  
+  .registration__part-right-text {
+    text-align: left;
+  }
+  
+  .registration__drop-menu {
+    width: 60px;
+  }
+  
+  /* end registration */
+  
+  
+  /* -------- END NAVIGATION ------- */
+  
+  /* -------- START SECTION -------- */
+ 
+  .start-section__bg {
+    background-image: url('./../img/fiat-tipo-1-mobile.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 500px
+  }
+  
+  .start-section__position {
+    top: 15%;
+    right: 20px;
+    left: 10%;
+  }
+  
+  .start-section__heading {
+    font-size: 40px;
+  }
+  
+  .start-section__heading-2 {
+    top: 225px;
+    font-size: 25px;
+  }
+  
+  /* -------- END START SECTION -------- */
+  
+  /* -------- DESCRIPTION SECTION No1 ------- */
+  
+  .description--starter {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .description-left {
+    height: 300px;
+  }
+  
+  .description-text-heading--starter {
+    top: 20%;
+    /* set to default value */
+    width: initial; 
+    font-size: 25px;
+    /* to center */
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .description-text-left--starter {
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    padding-right: 0;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  .description-right {
+    height: 320px;
+  }
+  
+  .description-img--1 {
+    background-image: url('./../img/fiat-tipo-2.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 320px;
+  }
+  
+  .description-heading {
+    top: 11%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .stand-out-text {
+    font-size: 80px;
+  }
+  
+  .price-text {
+    display: inline;
+    font-size: 45px;
+  }
+  
+  .currency-text {
+    position: initial;
+    font-size: 30px;
+  }
+  
+  sup {
+    top: -40px;
+  }
+   
+  /* -------- END DESCRIPTION SECTION No1 ------- */
+  
+  /* -------- AWARDS/ DESCRIPTION SECTION ------- */
+  
+  .awards__description-left {
+    height: auto;
+  }
+  
+  .award-heading {
+    right: initial;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: -32px;
+  }
+  
+  .text-heading {
+    top: -100%
+  }
+
+  .description-right--bg {
+    height: 320px;
+  }
+
+  .hr-right {
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: -32px;
+  }
+  
+  .description-text-right {
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  /* -------- END AWARDS/ DESCRIPTION SECTION ------- */
+  
+  /* -------- DESCRIPTION SECTION No2 ------- */
+  
+  .description {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  .arrow-box {
+    position: relative;
+    background: #fff;
+    width:100%;
+  }
+  
+  .arrow-box:after, .arrow-box:before {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+  }
+  
+  .arrow-box:after {
+    top: -29px;
+    border-bottom-color: #fff;
+    border-width: 18px;
+    margin-left: -18px;
+  }
+  
+  .description-text-heading {
+    top: 13%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hr-left {
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .description-text-left {
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    padding-right: 0;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  
+  .description-img--2 {
+    background-image: url('./../img/fiat-tipo-4.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 320px;
+  }
+  
+  /* -------- END DESCRIPTION SECTION No2 ------- */
+  
+  /* -------- DESCRIPTION SECTION No3 ------- */
+  
+  .description-img--3 {
+    background-image: url('./../img/fiat-tipo-6.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 320px;
+  }
+  
+  /* -------- END DESCRIPTION SECTION No3 ------- */
+  
+  /* -------- DESCRIPTION SECTION No4 ------- */
+  
+  .description-img--4 {
+    background-image: url('./../img/fiat-tipo-5.jpg');
+    background-color: #343434;
+    background-size: cover;
+    background-position: center center;
+    max-width: none;
+    height: 320px;
+  }
+  
+  /* -------- END DESCRIPTION SECTION No4 ------- */
+  
+  /* -------- THUMBNAILS/GALLERY SECTION --------*/
+  
+  .thumb-container {
+    text-align: center;
+  }
+  
+  .hr-gallery {
+    top: 150%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
+  
+  .flex-img {
+    padding: 25% 0 0 0;
+  }
+  
+  .flex-img .owl-carousel .img-thumb {
+    width: 50%;
+  }
+  
+  .img-thumb {
+    width: 50%;
+  }
+  
+  .owl-theme .owl-nav {
+    display: none;
+  }
+  
+  .glyphicon-menu-left--edited, 
+  .glyphicon-menu-right--edited {
+    display: none;
+  }
+  
+  /* -------- END THUMBNAILS/GALLERY SECTION --------*/
+  
+  /* -------- PRICE LIST SECTION -------- */
+  
+  .main-table {
+    margin: 22% auto 8%;
+  }
+
+  .description-text-heading--price-list {
+    top: -8%;
+  }
+  
+  .hr-price-list {
+    top: -2%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+  }
+  
+  /* -------- END PRICE LIST SECTION -------- */
+  
+}
+
+/********* END RESPONSIVE *********/
