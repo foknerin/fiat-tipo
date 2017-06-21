@@ -1,0 +1,25 @@
+{
+  "name": "fiat-tipo",
+  "version": "1.0.0",
+  "description": "The demo website for Fiat-Tipo",
+  "main": "index.js",
+  "scripts": {
+    "ftp-deploy": "node ./buildScripts/ftp-deploy.js --local-root=. --remote-root=/fiattipo.neringafo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/foknerin/fiat-tipo.git"
+  },
+  "author": "Neringa",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/foknerin/fiat-tipo/issues"
+  },
+  "homepage": "https://github.com/foknerin/fiat-tipo#readme",
+  "devDependencies": {
+    "async": "^2.4.1",
+    "command-line-args": "^4.0.6",
+    "ftp": "^0.3.10",
+    "ftp-deploy": "^1.2.2"
+  }
+}
